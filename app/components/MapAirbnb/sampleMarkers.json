@@ -1,0 +1,35 @@
+[
+  {
+    "coordinate": { // Plaza Baquedano
+      "latitude": "-33.436944",
+      "longitude": "-70.634449"
+    },
+    "info": {
+      "title": "Plaza Baquedano",
+      "desc": "Plaza pública de forma ovoidea ubicada en la comuna de Providencia",
+      "image": "http://www.metrosantiago.cl/img/guia-viajero/galeria/c0e190d8267e36708f955d7ab048990d-thumb-detalle.jpg"
+    }
+  },
+  {
+    "coordinate": { // Plaza de la consitución
+      "latitude": "-33.442003",
+      "longitude": "-70.653341"
+    },
+    "info": {
+      "title": "Plaza de la constitución",
+      "desc": "Explanada ubicada en el centro de Santiago de Chile",
+      "image": "http://www.santiagocapital.cl/public/img/uploads/DSC_5837s_31910104_87421397.jpg"
+    }
+  },
+  {
+    "coordinate": { // Parque Quinta Normal
+      "latitude": "-33.441076",
+      "longitude": "-70.682782"
+    },
+    "info": {
+      "title": "Parque Quinta Normal",
+      "desc": "Es el parque más extenso del sector norponiente de la capital",
+      "image": "http://www.santiagocapital.cl/public/img/uploads/_MG_0171_8633210886332108_8274201382742013.jpg"
+    }
+  },
+]
