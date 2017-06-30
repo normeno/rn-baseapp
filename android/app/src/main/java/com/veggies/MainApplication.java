@@ -3,6 +3,7 @@ package com.veggies;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.mapbox.reactnativemapboxgl.ReactNativeMapboxGLPackage;
 import com.airbnb.android.react.maps.MapsPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.AlexanderZaytsev.RNI18n.RNI18nPackage;
@@ -26,6 +27,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new ReactNativeMapboxGLPackage(),
             new MapsPackage(),
             new VectorIconsPackage(),
             new RNI18nPackage()

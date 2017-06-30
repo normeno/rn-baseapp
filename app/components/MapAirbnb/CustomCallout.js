@@ -27,7 +27,10 @@ class CustomCallout extends React.Component {
           <View style={styles.infoContainer}>
             <Text style={[styles.text, styles.infoTitle]}>{markerInfo.title}</Text>
             <Text style={[styles.text, styles.infoDesc]}>{markerInfo.desc}</Text>
-            <Text style={[styles.text, styles.infoDesc, styles.infoViewDetails]}>{I18n.t('viewDetail')}</Text>
+            <Text style={[styles.text, styles.infoDesc, styles.infoViewDetails]}
+               onPress={() => Actions.product()}>
+              {I18n.t('viewDetail')}
+            </Text>
           </View>
           
         </View>
