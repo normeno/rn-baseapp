@@ -8,12 +8,12 @@ import {
   TouchableOpacity,
 } from 'react-native';
 
-import {Actions} from 'react-native-router-flux'
+import {Actions} from 'react-native-router-flux';
 
-import { login } from './Api'
-import I18n from './../../i18n/i18n'
-import s from '../../config/settings'
-import styles from './Styles'
+import { login } from './Api';
+import I18n from './../../i18n/i18n';
+import s from '../../config/settings';
+import styles from './Styles';
 
 export default class Login extends Component {
 

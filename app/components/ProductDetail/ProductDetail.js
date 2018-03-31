@@ -9,16 +9,15 @@ import {
   ScrollView,
 } from 'react-native';
 
-import HeaderImageScrollView, { TriggeringView } from 'react-native-image-header-scroll-view'
-import {Actions} from 'react-native-router-flux'
-import Icon from 'react-native-vector-icons/Ionicons'
-import Swiper from 'react-native-swiper'
+import HeaderImageScrollView, { TriggeringView } from 'react-native-image-header-scroll-view';
+import {Actions} from 'react-native-router-flux';
+import Icon from 'react-native-vector-icons/Ionicons';
+import Swiper from 'react-native-swiper';
 
-import I18n from './../../i18n/i18n'
-import s from '../../config/settings'
-import styles from './Styles'
-import Layout from '../Layout/Layout'
-
+import I18n from './../../i18n/i18n';
+import s from '../../config/settings';
+import styles from './Styles';
+import Layout from '../Layout/Layout';
 
 const MIN_HEIGHT_HEADER = 100
 const MAX_HEIGHT_HEADER = 250

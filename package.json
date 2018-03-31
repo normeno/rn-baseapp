@@ -1,39 +1,35 @@
 {
-	"name": "veggies",
-	"version": "0.0.1",
-	"private": true,
-	"main": "index.android.js",
-	"scripts": {
-		"start": "node node_modules/react-native/local-cli/cli.js start",
-		"test": "jest"
-	},
-	"dependencies": {
-		"lodash": "^4.17.4",
-		"react": "16.0.0-alpha.12",
-		"react-native": "0.45.1",
-		"react-native-card-view": "^0.0.3",
-		"react-native-drawer": "^2.3.0",
-		"react-native-i18n": "^2.0.1",
-		"react-native-image-header-scroll-view": "^0.6.1",
-		"react-native-image-progress": "^0.6.0",
-		"react-native-lightbox": "^0.6.0",
-		"react-native-mapbox-gl": "^5.1.0",
-		"react-native-maps": "^0.15.2",
-		"react-native-parallax-scroll-view": "^0.19.0",
-		"react-native-progress": "^3.2.1",
-		"react-native-router-flux": "^3.40.1",
-		"react-native-swiper": "^1.5.4",
-		"react-native-vector-icons": "^4.2.0",
-		"react-navigation": "^1.0.0-beta.11"
-	},
-	"devDependencies": {
-		"babel-jest": "20.0.3",
-		"babel-plugin-module-resolver": "^2.7.1",
-		"babel-preset-react-native": "2.0.0",
-		"jest": "20.0.4",
-		"react-test-renderer": "16.0.0-alpha.12"
-	},
-	"jest": {
-		"preset": "react-native"
-	}
+  "name": "restaurant",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "jest-expo": "25.0.0",
+    "react-native-scripts": "1.11.1",
+    "react-test-renderer": "16.2.0"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@mapbox/react-native-mapbox-gl": "^6.1.0",
+    "expo": "^25.0.0",
+    "lodash": "^4.17.5",
+    "react": "16.2.0",
+    "react-native": "0.52.0",
+    "react-native-drawer": "^2.5.0",
+    "react-native-i18n": "^2.0.12",
+    "react-native-image-header-scroll-view": "^0.8.2",
+    "react-native-image-progress": "^1.1.0",
+    "react-native-progress": "^3.4.0",
+    "react-native-router-flux": "^4.0.0-beta.28",
+    "react-native-swiper": "^1.5.13"
+  }
 }

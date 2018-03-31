@@ -5,14 +5,15 @@ import {
   ScrollView,
   Text,
 } from 'react-native';
-import { Platform } from 'react-native'
-import Icon from 'react-native-vector-icons/Ionicons'
-import * as Progress from 'react-native-progress'
-import Image from 'react-native-image-progress'
+import {Actions} from 'react-native-router-flux';
+import { Platform } from 'react-native';
+import Icon from 'react-native-vector-icons/Ionicons';
+import * as Progress from 'react-native-progress';
+import Image from 'react-native-image-progress';
 
-import I18n from './../../i18n/i18n'
-import s from '../../config/settings'
-import styles from './Styles'
+import I18n from './../../i18n/i18n';
+import s from '../../config/settings';
+import styles from './Styles';
 
 export default class Drawer extends Component {
 

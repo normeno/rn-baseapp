@@ -12,11 +12,10 @@ import {
 import {Actions} from 'react-native-router-flux'
 import Icon from 'react-native-vector-icons/Ionicons'
 
-import I18n from './../../i18n/i18n'
-import s from '../../config/settings'
-import styles from './Styles'
-import Layout from '../Layout/Layout'
-
+import I18n from './../../i18n/i18n';
+import s from '../../config/settings';
+import styles from './Styles';
+import Layout from '../Layout/Layout';
 
 export default class Login extends Component {
 
